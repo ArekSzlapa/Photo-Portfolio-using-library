@@ -1,0 +1,200 @@
+:root {
+  --color1: #6b98bf;
+  --color2: #d97904;
+  --color3: #8c2218;
+  --color4: #bf3b0b;
+  --color5: #591d1d;
+  --color6: whitesmoke;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+
+  padding: 0;
+  margin: 0;
+}
+.first {
+  background-image: url(Images/bck.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 1vh;
+}
+nav {
+  max-width: 1200px;
+  margin: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  display: block;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 28px;
+}
+.img-logo {
+  width: 100%;
+  max-height: 170px;
+  max-width: 150px;
+}
+.logo {
+  flex-basis: 50%;
+}
+header {
+  background-color: var(--color6);
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.wrapper {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+  height: 100%;
+  padding: 0 20px 50px;
+  gap: 0.6%;
+  margin-bottom: 200px;
+  grid-template-areas:
+    "subaru subaru"
+    "tree sunset"
+    "tree szymon"
+    "coast szymon";
+}
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+fieldset {
+  border: 5px solid black;
+  border-radius: 5px;
+  max-width: 1200px;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+fieldset img {
+  border-radius: 5px;
+}
+.subaru {
+  grid-area: subaru;
+}
+.tree {
+  grid-area: tree;
+}
+.sunset {
+  grid-area: sunset;
+}
+.szymon {
+  height: 100%;
+  grid-area: szymon;
+}
+.coast {
+  grid-area: coast;
+}
+#about {
+  background-color: var(--color6);
+  width: 100%;
+  text-align: center;
+}
+#about h2 {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 38px;
+}
+#about p {
+  max-width: 1200px;
+  margin: auto;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+
+  padding: 30px;
+}
+.second {
+  background-image: url(Images/bck2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.swiper {
+  max-width: 1200px;
+  width: 900px;
+  height: 700px;
+  text-align: center;
+}
+.swiper-slide img {
+  height: 100%;
+  width: auto;
+  max-height: 700px;
+  max-width: 900px;
+  border: 5px solid whitesmoke;
+  border-radius: 5px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+#Other {
+  padding: 50px 0 100px;
+}
+.footer {
+  background-color: var(--color6);
+  width: 100%;
+  text-align: center;
+}
+.head2 {
+  color: var(--color6);
+  text-align: center;
+}
+footer {
+  width: 100%;
+  background-color: var(--color6);
+}
+/*Dokończyć footera, zrobić ikonki social(FB,Insta starczy) + singature środek? + contact info + physics on the logo? have at it!*/
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.social {
+  display: grid;
+  max-height: 100px;
+  margin-bottom: 10vh;
+}
+.social-wrap a {
+  width: 50px;
+  height: 100px;
+  display: flex;
+}
+.social-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signature p,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  padding: 20px 0 0;
+  font-size: 24px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikolarz</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <div class="main-nav">
+            <li class="logo">
+              <img class="img-logo" src="Images/logo.png" />
+            </li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <div class="first">
+      <main>
+        <div class="photo">
+          <fieldset class="wrapper">
+            <legend><h2>Featured projects</h2></legend>
+            <img class="subaru" src="Images/1.JPG" alt="Subaru" />
+            <img class="tree" src="Images/23.JPG" alt="Tree" />
+            <img class="sunset" src="Images/18.JPG" alt="Sunset" />
+            <img class="szymon" src="Images/7.JPG" alt="A girl dancing" />
+            <img class="coast" src="Images/15.JPG" alt="Red mountains" />
+          </fieldset>
+        </div>
+      </main>
+    </div>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Hi, my name is Patryk Nikolarz, and I am passionate about photograpy.
+        Above you can see the snaps I am most proud of (and below, that does not
+        mean i don't like them! the rest of my work, that I wanted to present).
+        If you want you can contact me using the information found in the footer
+        of this webpage. I would love to hear some feedback and propositions of
+        colaboration!
+      </p>
+    </section>
+    <div class="second">
+      <section id="Other">
+        <!-- Slider main container -->
+        <h2 class="head2">My Other Projects</h2>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+
+            <div class="swiper-slide"><img src="Images/2.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/3.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/4.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/5.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/6.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/8.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/9.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/10.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/11.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/12.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/13.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/14.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/16.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/17.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/19.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/20.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/21.JPG" /></div>
+            <div class="swiper-slide"><img src="Images/22.JPG" /></div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev swiper-button-white"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="social">
+          <h3>Follow me on social media!</h3>
+          <div class="social-wrap">
+            <a href="https://facbook.com">
+              <img class="icon" src="Images/f_icon.svg"
+            /></a>
+            <a href="https://instagram.com"
+              ><img class="icon space" src="Images/i_icon.svg"
+            /></a>
+          </div>
+        </div>
+        <div class="signature">
+          <h3>Website created by:</h3>
+          <div id="contact"></div>
+          <img src="Images/signature.png" alt="Szlapa Arkadiusz" />
+          <p>&copy 2022</p>
+        </div>
+        <div class="contact-me">
+          <h3>Photos captured by:</h3>
+          <img src="Images/signature_author.png" alt="Patryk Nikolarz" />
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/popmotion@8.5.0/dist/popmotion.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
